@@ -1,0 +1,40 @@
+:root{
+    /* CTAs, Focused, Active states, Links */
+    --primary-brand:#4D5AE5;
+
+    /* overlays, shadows,headings */
+    --dark:#2E2F42;
+
+    /* valid fields, success messages */
+    --success:#31D0AA;
+
+    /* Body Text */
+    --text:#434455;
+
+    /* Helper text, Deemphasized text*/
+    --sublte-text:#8E8F99;
+
+    /* Accent color Hairlines Subtle backgrounds */
+    --Accent:#E7E9FC;
+
+    /* Light mode backgrounds Light mode Dialogs/alerts */
+    --Light:#F4F4FD;
+
+    /* background color , hero-title */
+    --background:#FFFFFF;
+   
+}
+
+
+body {
+    background-color: var(--background);
+
+}
+
+/*  */
+.section.hero{
+    background-color: var(--dark);
+}
+.hero-title{
+color: var(--background);
+}
