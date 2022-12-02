@@ -105,20 +105,23 @@ body {
 /* .navigation .link:active{
 color: var(--primary-brand);
 } */
-.navigation .link:hover,
-.navigation .link:focus {
+.nav.link:hover,
+.nav.link:focus {
     color:var(--text)
 }
 .navigation .link.current {
     color: var(--primary-brand)
 }
-.navigation .link.logo{
+.link.logo{
     font-family: Raleway, sans-serif;
     color: var(--dark);
     text-decoration: none;
 }
 .logo-blue{
     color: var(--primary-brand);
+}
+.logo.logo-white{
+    color: var(--Light);
 }
 /* Hero Section */
 .section.hero{
